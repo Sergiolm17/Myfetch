@@ -59,7 +59,7 @@ async function receive(opt, url, callback, err) {
       resolve(await receiveFunction(url,err));
     });
   } else {
-    await receiveFunction(url,err)
+    callback(await receiveFunction(url,err))
     return new Promise(async (resolve, reject) => {
       resolve(await receiveFunction(url,err));
     });
