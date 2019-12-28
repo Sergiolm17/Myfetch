@@ -1,5 +1,5 @@
 {
-  "name": "myfetch",
+  "name": "swap-fetch",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,9 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sergio lazaro <kingsergiolm17@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^2.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Sergiolm17/Myfetch.git"
   }
 }
